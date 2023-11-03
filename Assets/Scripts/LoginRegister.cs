@@ -16,6 +16,7 @@ public class LoginRegister : MonoBehaviour{
     public string playFabId;
 
     public static LoginRegister instance;
+
     void Awake(){instance = this;}
 
     public void OnRegister(){
